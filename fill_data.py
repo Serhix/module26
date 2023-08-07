@@ -101,3 +101,4 @@ def insert_data_to_db(students, groups, teachers, subjects, avaluation):
 if __name__ == '__main__':
     st, gr, tech, sub, ava = prepare_data(*generate_fake_data(MAX_STUDENTS, MAX_GROUPS, MAX_TEACHERS, MAX_SUBJECTS))
     insert_data_to_db(st, gr, tech, sub, ava)
+
